@@ -20,21 +20,12 @@ async function bootstrap() {
   app.useStaticAssets(join(__dirname, '..', 'uploads'));
 
   const config = new DocumentBuilder()
-    .setTitle('Edusys')
-    .setDescription('Edusys API documentation')
+    .setTitle('Nestjs API Documentation')
+    .setDescription('Nestjs API Documentation using Swagger')
     .setVersion('1.0.0')
-    .addTag('Global config')
     .addTag('Auth')
     .addTag('Users')
     .addTag('Roles')
-    .addTag('Promotions')
-    .addTag('Faculties')
-    .addTag('Levels')
-    .addTag('Teachers')
-    .addTag('Submissions Settings')
-    .addTag('Subjects')
-    .addTag('Students')
-    .addTag('Requests')
     .addTag('Mailer')
     .addTag('Files')
     .build();
