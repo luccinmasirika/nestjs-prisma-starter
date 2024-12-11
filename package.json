@@ -41,7 +41,7 @@
     "gm": "^1.23.1",
     "helmet": "^5.1.0",
     "image-size": "^1.0.2",
-    "nanoid": "3.3.4",
+    "nanoid": "3.3.8",
     "nodemailer": "^6.7.7",
     "nodemailer-express-handlebars": "^5.0.0",
     "passport": "^0.6.0",
